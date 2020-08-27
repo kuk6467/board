@@ -25,7 +25,7 @@ SECRET_KEY = '-$g9qk0cwy#*a43u%i4z)sa1ifj0253*ucns7mwj78b*-*3e9f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.pythonanywhere.com']
+ALLOWED_HOSTS = [os.path.join(BASE_DIR, 'db.sqlite3''.pythonanywhere.com')]
 
 
 # Application definition
