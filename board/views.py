@@ -2,7 +2,8 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from article.models import User, Article
 
-
+def map(request):
+    return render(request, 'map.html')
 
 def delete(request, id):
     try:

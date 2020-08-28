@@ -27,10 +27,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['.pythonanywhere.com']
 
+#
 
 # Application definition
 
 INSTALLED_APPS = [
+    'map',
     'article',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -51,7 +53,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'board.urls'
-
+#
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
